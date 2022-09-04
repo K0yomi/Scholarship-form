@@ -1,5 +1,5 @@
 
-.president-scholarship-form
+/* .president-scholarship-form
 
 .president-scholarship-header
   .main-header
@@ -10,10 +10,11 @@
 
 .section1-header
 .section1-сoat-of-arms
-.field-block
-.field-name
+.field-block */
+div.field-block a { text-decoration: none; }
+/* .field-name
 .field-to-fill
 .field-hint
 .section1-confirmation-check
 .add-achievement
-.section2-header
+.section2-header */
