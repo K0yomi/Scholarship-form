@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="president-scholarship-header">
+    <a href="https://ivt.gumrf.ru/nauchnaya-deyatelnost/">Сюда надо будет разместить форму</a>
+    <!-- содержимое хедера сайта вуза -->
+  </header> 
+
+  <main>
+    <h2 class="main-header">Форма подачи материалов для получения стипендии Президента и Правительства РФ по ИВТ на 2022/2023 уч.г.</h2>
+
+    <form action="#" method="post" enctype="multipart/form-data">
+      <!-- Первая часть -->
+      <div class="section1-student-info">
+        <h3 class="section1-header">ИНСТИТУТ ВОДНОГО ТРАНСПОРТА</h3>
+        <img class="section1-сoat-of-arms" src="720x.png" alt="Герб Санкт-Петербургского государственного университета водных коммуникаций"><br>
+          <div class="field-block">
+            <label class="field-name" for="fio">* ФИО (полностью)</label>
+            <input class="field-to-fill" type="text" name="fio" id="fio" required>
+            <br><small class="field-hint">Например: Иванов Иван Иванович</small>
+          </div>
+          <div class="field-block">
+            <label class="field-name" for="specialty">* Направление (специальность) </label>
+              <select name="specialty" id="specialty" required>
+                <option value="01.03.02">01.03.02 "Прикладная математика и информатика"</option>
+                <option value="08.03.01">08.03.01 "Строительство"</option>
+                <option value="08.04.01">08.04.01 "Строительство"</option>
+                <option value="09.03.02">09.03.02 "Информационные системы и технологии"</option>
+                <option value="09.03.03">09.03.03 "Прикладная информатика"</option>
+                <option value="09.04.02">09.04.02 "Информационные системы и технологии"</option>
+                <option value="10.03.01">10.03.01 "Информационная безопасность"</option>
+                <option value="10.04.01">10.04.01 "Информационная безопасность"</option>
+                <option value="10.05.03">10.05.03 "Информационная безопасность автоматизированных систем"</option>
+                <option value="13.03.02">13.03.02 "Электроэнергетика и электротехника"</option>
+                <option value="20.03.02">20.03.02 "Природообустройство и водопользование"</option>
+                <option value="23.03.03">23.03.03 "Эксплуатация транспортно-технологических машин и комплексов"</option>
+                <option value="26.03.01">26.03.01 "Управление водным транспортом и гидрографическое обеспечение судоходства"</option>
+                <option value="26.03.02">26.03.02 "Кораблестроение, океанотехника и системотехника объектов морской инфраструктуры"</option>
+                <option value="26.04.01">26.04.01 "Управление водным транспортом и гидрографическое обеспечение судоходства"</option>
+                <option value="26.04.02">26.04.02 "Кораблестроение, океанотехника и системотехника объектов морской инфраструктуры"</option>
+                <option value="38.03.04">38.03.04 "Государственное и муниципальное управление"</option>
+                <option value="43.03.02">43.03.02 "Туризм"</option>
+              </select>
+          </div>
+          <div class="field-block">
+            <label class="field-name" for="group">* Группа </label>
+            <input class="field-to-fill" type="text" name="group" id="group" required>
+          </div>
+          <div class="section1-confirmation-check" >
+            *<input type="checkbox" required>Подтверждаю, что не имею оценок "удовлетворительно" и долгов. Средний балл не менее 4,50 
+            <br><small class="field-hint">За весь период обучения, с 1-го курса</small>
+          </div>
+          <div class="field-block">
+            <label class="field-name" for="VKprofile">* Ссылка на провиль ВК</label>
+            <input class="field-to-fill" type="text" name="VKprofile" id="VKprofile" required>
+            <br><small class="field-hint">Например: https://vk.com/id999391460</small>
+          </div>
+          <div class="field-block">
+            <label class="field-name" for="telephone">Телефон</label>
+            <input class="field-to-fill" type="tel" name="telephone" id="telephone">
+            <br><small class="field-hint">Например: +7 (999) 999-99-99</small>
+          </div>
+          <div class="field-block">
+            <label class="field-name" for="email">E-Mail</label>
+            <input class="field-to-fill" type="email" name="email" id="email">
+            <br><small class="field-hint">Например: ivanovii@gumrf.ru</small>
+          </div>
+          <div class="field-block">
+            <p>
+              <label class="field-name" for="statement_of_consent">* Заявление на согласие на обработку ПД (DOCX)
+                <br><small class="field-hint">заполненный документ БЕЗ ПОДПИСЕЙ в формате docx</small><br>
+              </label>
+            </p>
+            <div>
+              <input type="file" name="statement_of_consent" id="statement_of_consent" required><br>
+              <small class="field-hint">Один файл размером до 20 МБ.</small>
+            </div>
+          </div>
+          <div class="field-block">
+            <a href="https://disk.yandex.ru/i/rurZzfiblV_3jg" target="_blank">Форма (пример) заявления</a>
+          </div>
+          <div class="section1-confirmation-check">
+            *<input class="section1-confirmation-check" type="checkbox" required>Подтверждаю готовность подписать оригиналы по запросу 
+          </div>
+      </div>
+        <!-- Вторая часть -->
+      <div class="section2-achievement">
+        <h4 class="section2-header">Заявляемое достижение</h4>
+        <div>
+          <label class="field-name" for="achievement_type">* Тип достижения</label>
+          <select name="achievement_type" id="achievement_type" required>
+            <option value="achievement_without">Публикация без индексации</option>
+            <option value="achievement_with_rinz">Публикация с индексацией РИНЦ</option>
+            <option value="achievement_with_scopus">Публикация с индексацией Scopus/WoS</option>
+            <option value="achievement_in_VAK">Публикация в журнале ВАК</option>
+            <option value="achievement_patent">Патент, свидетельство</option>
+            <option value="achievement_prize_place">Призовое место в конкурсе</option>
+          </select>
+        </div>
+        <div class="field-block">
+          <label class="field-name" for="achievement_name">* Наименование</label>
+          <input class="field-to-fill" type="text" name="achievement_name" id="achievement_name" required>
+          <br><small class="field-hint">Название статьи, доклада, сертификата, диплома, патента и т.п.</small>
+        </div>
+        <div class="field-block">
+          <label class="field-name" for="authors_list">* Список ФИО авторов</label>
+          <input class="field-to-fill" type="text" name="authors_list" id="authors_list" required>
+          <br><small class="field-hint">Например: Иванов И.И., Петров П.П.</small>
+        </div>
+        <div class="field-block">
+          <label class="field-name" for="organization_name">* Организация</label>
+          <input class="field-to-fill" type="text" name="organization_name" id="organization_name" required>
+          <br><small class="field-hint">Выходные данные сборника (название конференции или журнала, дата, издательство, страницы и т.п.), организатор конкурса или хакатона, грантодатель и т.п.</small>
+        </div>
+        <div class="field-block">
+          <label class="field-name" for="publication_pages">* Страницы публикации</label>
+          <input class="field-to-fill" type="text" name="publication_pages" id="publication_pages" required>
+          <br><small class="field-hint">Например: 21-24</small>
+        </div>
+        <div class="field-block">
+          <label class="field-name" for="publication_link">* Ссылка</label>
+          <input class="field-to-fill" type="text" name="publication_link" id="publication_link" required>
+          <br><small class="field-hint">На материал (статью, патент или свидетельство) в индексируемой базе или на портале организатора.</small>
+        </div>
+        
+        <!-- Подтверждение, дата -->
+        <div class="field-block">
+          <label class="field-name" for="confirmation_document">* Подтверждение<br>
+            <small class="field-hint">Файл сборника, скан диплома, грамоты, сертификата и т.п.</small><br>
+          </label>
+          <div>
+            <input type="file" name="confirmation_document" id="confirmation_document" required><br>
+            <small class="field-hint">Один файл размером до 20 МБ.</small>
+          </div>
+        </div>
+        <div class="field-block">
+          <label class="field-name" for="application_data">* Дата <br>
+          <small class="field-hint">Дата публикации статьи, выдачи или регистрации диплома, патента, сертификата и пр.</small>
+        </label>
+        <input type="data" name="application_data" id="application_data" required>
+      </div>
+      </div>
+        <!-- и возможность добавить ещё одно достижение......... -->
+      <div><strong class="add-achievement">+ "Ещё заявляемое достижение"</strong></div>
+      <!-- submit -->
+      <div><input type="submit" class="president-scholarship-submit-button" name="Отправить"></div>
+
+    </form>
+  </main>
+
+  <footer class="president-scholarship-footer">
+    <!-- содержимое футера сайта вуза -->
+  </footer>
+</body>
+</html>
