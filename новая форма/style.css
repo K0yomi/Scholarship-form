@@ -1,20 +1,65 @@
+@import "resets/normalize.scss";
 
-/* .president-scholarship-form
+body {
+  font-family:'Open Sans', sans-serif, arial;
+  font-size: 14px;
+  line-height: 1;
+  background-color: transparent;
+  margin: 0px 100px 0px 100px;
+}
+.president-scholarship-form {
+  background-color: blue;
+  margin: 20px;
+}
 
-.president-scholarship-header
-  .main-header
-.president-scholarship-main
-  .section1-student-info
-  .section2-achievement
-.president-scholarship-footer
+.president-scholarship-header {
+  padding: 10px;
+  background-color: grey;
+  margin: 2% 0%;
+}
+  .main-header {
+    font-size: 30px;
+    padding: 10px;
+    background-color: aquamarine;
+  }
+.president-scholarship-main {
+  padding: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: blueviolet;
+}
+  .section1-student-info {
+    margin: 10px 20px;
+    padding: 10px 10px;
+    background-color:bisque;
+  }
+  .section2-achievement {
+    margin: 10px 20px;
+    padding: 10px 10px;
+    background-color:brown;
+  }
+.president-scholarship-footer {
+  padding: 10px;
+  background-color: grey;
+  margin: 2% 0%;
+}
 
-.section1-header
+.section1-header {
+  font-size: 20px;
+  padding: 10px;
+  background-color: aquamarine;
+}
 .section1-сoat-of-arms
-.field-block */
+.field-block
 div.field-block a { text-decoration: none; }
-/* .field-name
+
+.field-name
 .field-to-fill
 .field-hint
 .section1-confirmation-check
 .add-achievement
-.section2-header */
+.section2-header {
+  font-size: 20px;
+  padding: 10px;
+  background-color: aquamarine;
+}
