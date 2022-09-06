@@ -5,61 +5,80 @@ body {
   font-size: 14px;
   line-height: 1;
   background-color: transparent;
-  margin: 0px 100px 0px 100px;
+  /* margin: 0px; */
 }
 .president-scholarship-form {
   background-color: blue;
-  margin: 20px;
+}
+
+div {
+  margin-bottom: 1em;
 }
 
 .president-scholarship-header {
-  padding: 10px;
   background-color: grey;
-  margin: 2% 0%;
+  margin: 0% 0% 2% 0%;
+  padding: 2% 6% 2% 6%;
+  /* margin убрать потом?*/
+  /* padding вроде нормально написан */
 }
   .main-header {
     font-size: 30px;
-    padding: 10px;
-    background-color: aquamarine;
+    background-color: #dbd8a9;
+    padding: 0% 6%;
   }
+  
 .president-scholarship-main {
-  padding: 10px;
-  margin-right: auto;
-  margin-left: auto;
-  background-color: blueviolet;
+  background-color: #485e82;
+  padding-left: 10%;
+  margin-bottom: 3em;
 }
   .section1-student-info {
-    margin: 10px 20px;
-    padding: 10px 10px;
-    background-color:bisque;
+    background-color:#f7f7f0;
+    padding-left: 10%;
+    margin-bottom: 2em;
   }
   .section2-achievement {
-    margin: 10px 20px;
-    padding: 10px 10px;
     background-color:brown;
+    padding-left: 10%;
+    margin-bottom: 2em;
   }
 .president-scholarship-footer {
-  padding: 10px;
   background-color: grey;
-  margin: 2% 0%;
+  margin: 0% 0% 0% 0%;
+  padding: 2% 6% 2% 6%;
 }
 
 .section1-header {
   font-size: 20px;
-  padding: 10px;
-  background-color: aquamarine;
+  background-color: #dbd8a9;
 }
-.section1-сoat-of-arms
-.field-block
-div.field-block a { text-decoration: none; }
 
-.field-name
+.section1-сoat-of-arms
+/* и что с этим делать? оно все ломает */
+
+.field-block {
+  margin: 10em 0em;
+  background-color: #f7f6df; 
+}
+
+div.field-block a { 
+  text-decoration: none;
+}
+
+/* .field-name {} */
 .field-to-fill
 .field-hint
 .section1-confirmation-check
-.add-achievement
+.add-achievement {
+  padding-left: 0% 0% 0% 10%;
+}
 .section2-header {
   font-size: 20px;
-  padding: 10px;
-  background-color: aquamarine;
+  background-color: #dbd8a9;
+  margin: 0em 0em 1em 0em;
+  /* Разобраться почему не работает */
+}
+.president-scholarship-submit-button {
+  margin-left: 10%;
 }
