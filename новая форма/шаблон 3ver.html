@@ -14,14 +14,14 @@
     <!-- содержимое хедера сайта вуза -->
   </header> 
 
-  <main class="president-scholarship-main">
+  <main>
     <h2 class="main-header">Форма подачи материалов для получения стипендии Президента и Правительства РФ по ИВТ на 2022/2023 уч.г.</h2>
 
     <form action="#" method="post" enctype="multipart/form-data">
       <!-- Первая часть -->
       <div class="section1-student-info">
         <h3 class="section1-header">ИНСТИТУТ ВОДНОГО ТРАНСПОРТА</h3>
-        <img class="section1-сoat-of-arms" src="720x.png" alt="Герб Санкт-Петербургского государственного университета водных коммуникаций"><br>
+        <img class="section1-сoat-of-arms" style="margin-bottom: 1em;" src="720x.png" alt="Герб Санкт-Петербургского государственного университета водных коммуникаций"><br>
           <div class="field-block">
             <label class="field-name" for="fio">* ФИО (полностью)</label>
             <input class="field-to-fill" type="text" name="fio" id="fio" required>
@@ -146,18 +146,22 @@
           <small class="field-hint">Дата публикации статьи, выдачи или регистрации диплома, патента, сертификата и пр.</small>
         </label>
         <input type="data" name="application_data" id="application_data" required>
-      </div>
-      </div>
+        </div>
         <!-- и возможность добавить ещё одно достижение......... -->
-      <div><strong class="add-achievement">+ "Ещё заявляемое достижение"</strong></div>
+      <div class="field-block">
+        <strong class="add-achievement">+ "Ещё заявляемое достижение"</strong>
+      </div>
+      </div>
       <!-- submit -->
-      <div><input type="submit" class="president-scholarship-submit-button" name="Отправить"></div>
+      <div class="field-block">
+        <input type="submit" class="president-scholarship-submit-button" name="Отправить">
+      </div>
 
     </form>
   </main>
 
   <footer class="president-scholarship-footer">
-    <p> содержимое футера сайта вуза </p> 
+    содержимое футера сайта вуза
   </footer>
 
 <!-- js -->
